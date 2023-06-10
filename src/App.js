@@ -33,7 +33,7 @@ const App = () => {
     }, [])
 
   return (
-    <div class="bg-[url(https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60)] bg-no-repeat bg-center bg-cover min-h-screen">
+    <div className="bg-[url(https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60)] bg-no-repeat bg-center bg-cover min-h-screen">
       <div>
         <Navbar/>
       </div>

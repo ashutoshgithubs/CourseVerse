@@ -33,7 +33,7 @@ export default function Card(props) {
     <div className='w-[300px] bg-bgDark bg-opacity-80 rounded-md drop-shadow-xl overflow-hidden hover:scale-105 transition-all duration-200' >
         <div className='relative'>
             <img src={course.image.url} alt='img' className='object-cover'></img>
-            <button onClick={clickHandler}   className='rounded-full absolute right-2 bottom-[-12px] bg-white w-[40px] h-[40px] flex items-center justify-center'>
+            <button onClick={clickHandler}  className='rounded-full absolute right-2 bottom-[-12px] bg-white w-[40px] h-[40px] flex items-center justify-center'>
                 {
                     likedCourses.includes(course.id)?(<FcLike fontSize="1.75rem"/>):(<FcLikePlaceholder fontSize="1.75rem"/>)
                 }
