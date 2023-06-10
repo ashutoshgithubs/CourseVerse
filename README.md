@@ -1,2 +1,2 @@
 # CourseVerse
- All top Courses at one place
+ Top courses of different domain at one place
